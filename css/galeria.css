@@ -1,0 +1,41 @@
+.contenedor {
+    width: 100%;
+    background:rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor img {
+
+    width: 20%;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #333;
+    box-shadow: 0 0 0 2px white;
+    flex: auto;
+}
+
+@media screen and (max-width:800px){
+    .contenedor img {
+        width: 30%;
+
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .contenedor img {
+        width: 50%;
+
+    }
+
+}
+
+@media screen and (max-width:369px){
+    .contenedor img {
+        width: 95%;
+
+    }
+
+}

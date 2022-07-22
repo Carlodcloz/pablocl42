@@ -1,0 +1,275 @@
+.header {
+    /* background: linear-gradient(355deg, rgb(0, 0, 0) 35% ,#d19321e0 170%); */
+    color: white;
+    padding: 2rem 0;
+    font-family: 'Righteous', cursive;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.header a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.header2 {
+    /* background: linear-gradient(355deg, rgb(0, 0, 0) 35% ,#d19321e0 170%); */
+    color: white;
+    padding: 2rem 0;
+    font-family: 'Righteous', cursive;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.header2 a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container {
+
+    margin-left:0%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+
+    letter-spacing: 15px;
+    font-size: 1.3em;
+    margin-right: 25%;
+    color: #6e6e6e71;
+}
+
+.menu-icon {
+
+    display: none;
+
+}
+
+
+.navigation ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+.navigation ul li {
+
+    display: inline-block;
+
+}
+
+.navigation ul li a {
+
+    display:  block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    position: relative;
+    color: #ffffff;
+    transition: 0.5s;
+    
+
+}
+
+.navigation ul li a:hover {
+    color: rgb(195, 195, 195)
+
+
+}
+
+/*navigation2*/
+
+.navigation2 ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+.navigation2 ul li {
+
+    display: inline-block;
+
+}
+
+.navigation2 ul li a {
+
+    display:  block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    position: relative;
+    color: #ffffff;
+    transition: 0.5s;
+    
+
+}
+
+.navigation2 ul li a:hover {
+    color: rgb(195, 195, 195)
+
+
+}
+
+.link-nav span {  /*button*/
+    display: block;
+    position: absolute;
+    background-color: rgb(245, 154, 35);
+
+}
+
+.link-nav span:nth-child(1){
+
+    left: 0;
+    bottom:0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+}
+
+.link-nav:hover span:nth-child(1){
+
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.link-nav span:nth-child(2){
+
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.link-nav:hover span:nth-child(2){
+
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+.link-nav span:nth-child(3){
+
+    right: 0;
+    bottom:0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+
+}
+
+.link-nav:hover span:nth-child(3){
+
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+
+}
+
+.link-nav span:nth-child(4){
+
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.link-nav:hover span:nth-child(4){
+
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+    .menu-icon {
+
+        display: block;  
+        cursor: pointer;
+
+    }
+
+
+
+    .navigation {
+
+        width: 100%;
+
+    }
+    
+    .navigation ul {
+
+        display: none;
+
+
+    }
+
+    .navigation ul.show {
+
+        display: block;           /*para que se vea*/
+
+    }
+    
+    .navigation ul li {
+    
+        display: block;
+    
+    }
+    
+    .navigation ul li a {
+    
+        display:  block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    
+    .navigation ul li a:hover {
+        background: #4a4a4a;
+    
+    
+    }
+    
+
+
+}

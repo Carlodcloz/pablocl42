@@ -1,0 +1,240 @@
+
+/*boxes*/
+
+.leftzone {
+
+    /* margin-top: 3vh; */
+    position: relative;
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    transition: 1.2s;
+    /* margin-left: 10%; */
+    
+ 
+
+}
+
+.leftzone:hover {
+
+    transform: scale(1.015);
+
+}
+
+
+.container-leftbox .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.leftzone .writingZone:hover {
+
+    filter: blur(10px);
+    transform: scale(1);
+}
+
+.leftzone .leftimg {
+
+    position: absolute; 
+    top: -20%;
+    left: -20%;
+    width: 140%;
+    height: 140%;
+    pointer-events: none;
+    filter: blur(20px);
+    transition: 1.1s;
+}
+
+.leftzone .writingZone:hover ~ .leftimg{
+
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    filter: blur(0px);
+}
+
+
+/*boxex///////////////////////*/
+
+
+.container-leftbox2 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox3 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox4 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox5 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox6 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox7 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox8 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox9 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox10 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox11 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox12 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}
+
+.container-leftbox13 .leftzone .writingZone {
+
+    position: relative;
+    color: rgba(255, 255, 255, 0.848);
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index: 2;
+    transition: 1.5s;
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+
+}

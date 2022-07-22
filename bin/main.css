@@ -1,0 +1,123 @@
+
+body {
+    margin: 0 auto;
+    /* font-family: 'Raleway', sans-serif; */
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    
+}
+
+#title{
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.text-container {
+    color: #ffffff;
+    text-align: left;
+    padding-top: 9rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+
+.text-container .child {
+    font-weight: bold;
+    color:#ffffff;
+    font-style: normal;
+    font-size:80px ;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.text-container .child:hover {
+
+    color: white;
+    transition: 0.5s;
+}   
+
+.pablo{
+    color: rgb(218, 164, 39);
+    display:inline-block;
+    font-family: 'Righteous', cursive;
+    font-size: 75px;
+}
+
+.novedad {
+    position:absolute;
+    width: 800px;
+    height: 500px;
+    background: #222;
+    margin-left: 50%;
+    margin-top: 10rem;
+    border: 2px solid rgb(209, 157, 36);
+    box-shadow: 0 0 0 1px rgb(60, 50, 40);
+}
+
+    /* hacer un div enlace */
+
+.novedad .clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+
+}
+
+.novedad .clip.clip1{
+    background: url("https://static.wixstatic.com/media/6012c5_d08afbec91e945c2be7d1812fdffded2~mv2.jpg/v1/fit/w_1164,h_780,q_90/6012c5_d08afbec91e945c2be7d1812fdffded2~mv2.webp");
+    clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
+
+
+}
+
+.novedad .clip.clip2{
+    background: url("https://static.wixstatic.com/media/6012c5_09b83c5df5d54f94b6a9436ceac2faab~mv2.jpg/v1/fit/w_1164,h_780,q_90/6012c5_09b83c5df5d54f94b6a9436ceac2faab~mv2.webp");
+    clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
+
+
+}
+
+.novedad .clip.clip3{
+    background:url("https://static.wixstatic.com/media/6012c5_27119d8ddf5e48d7a289820a89b9cbb4~mv2.jpg/v1/fit/w_1164,h_780,q_90/6012c5_27119d8ddf5e48d7a289820a89b9cbb4~mv2.webp");
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
+
+
+}
+
+.novedad:hover .clip {
+
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+
+
+}
+
+.novedad .clip:hover{
+
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+
+}
+
+.about-container {
+    height: 15rem;
+    width: 15rem;
+    margin-bottom: 0;
+    margin-top: 20%;
+    margin-right: 80%;
+    background-color: red;
+    position:absolute;
+}
+
+/* 
+.content {
+
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 70%;
+    padding: 20px;
+    background: #fff;
+
+} */
